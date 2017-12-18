@@ -29,13 +29,7 @@ class Project1_HomePage: UIViewController {
         // 利用路徑，找出檔案
         let items = try! fm.contentsOfDirectory(atPath: path)
         
-        print("")
-        print("path : "+path)
-        
         for item in items{
-            
-            print("items : "+item)
-            
             // 並根據所有檔案，找出開頭"nssl"的資料
             if item.hasPrefix("nssl"){
                 print("item"+item)
