@@ -18,6 +18,8 @@ class Project7_HomePage: UIViewController {
         super.viewDidLoad()
 
         title = "Project7_WhitehousePetitions"
+        
+        
     }
 
     // MARK: - IBAction
