@@ -134,6 +134,21 @@
             </objects>
             <point key="canvasLocation" x="1054" y="96"/>
         </scene>
+        <!--Project13 Home Page-->
+        <scene sceneID="tLX-g0-qbt">
+            <objects>
+                <viewController storyboardIdentifier="view_Project13_HomePage" id="Lwh-AR-oh8" customClass="Project13_HomePage" customModule="Project_HackingWithSwift" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="i34-es-JBc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="CQj-Ao-FDx"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BDU-E2-prW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1663" y="175"/>
+        </scene>
         <!--view_Project7_HomePage-->
         <scene sceneID="Hxx-MY-dHS">
             <objects>
@@ -181,14 +196,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Mff-gt-c9b" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1066" y="460"/>
-        </scene>
-        <!--view_Project13_HomePage-->
-        <scene sceneID="V5Q-4W-RQs">
-            <objects>
-                <viewControllerPlaceholder storyboardIdentifier="view_Project13_HomePage" storyboardName="Project13" referencedIdentifier="view_Project13_HomePage" id="kpc-W7-rAh" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="rgw-2H-j74" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1663" y="175"/>
         </scene>
     </scenes>
 </document>

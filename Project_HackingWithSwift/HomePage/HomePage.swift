@@ -23,7 +23,7 @@ class HomePage: UIViewController {
         
         navigationItem.title = "目錄"
         
-        projectArray = ["Project1_StomViewer","Project2_GuessTheFlag","Project3_SocialMedia","Project4_EasyBrowser","Project5_WordScramble","Project6_AutoLayout","Project7_WhitehousePetitions","Project8_7SwiftyWords","Project9_GCD","Project10_NamesToFaces","Project11_Pachinko","Project12_UserDefaults"]
+        projectArray = ["Project1_StomViewer","Project2_GuessTheFlag","Project3_SocialMedia","Project4_EasyBrowser","Project5_WordScramble","Project6_AutoLayout","Project7_WhitehousePetitions","Project8_7SwiftyWords","Project9_GCD","Project10_NamesToFaces","Project11_Pachinko","Project12_UserDefaults","Project13_Instafilter"]
         
         HP_tableview.dataSource = self
         HP_tableview.delegate = self
@@ -103,6 +103,10 @@ extension HomePage: UITableViewDelegate{
         case 11:
             let push = storyboard?.instantiateViewController(withIdentifier: "view_Project12_HomePage") as? Project12_HomePage
             navigationController?.setToolbarHidden(true, animated: true)
+            self.navigationController?.pushViewController(push!, animated: true)
+        case 12:
+            let push = storyboard?.instantiateViewController(withIdentifier: "view_Project13_HomePage") as? Project13_HomePage
+            
             self.navigationController?.pushViewController(push!, animated: true)
         default:
             print("Over the range.")
