@@ -49,6 +49,11 @@
 		B03174121FD5747A00B0F6DC /* Project6_HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03174111FD5747A00B0F6DC /* Project6_HomePage.swift */; };
 		B03174161FD574C900B0F6DC /* Project5.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B03174141FD574C900B0F6DC /* Project5.storyboard */; };
 		B031741A1FD5751F00B0F6DC /* Project6.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B03174191FD5751F00B0F6DC /* Project6.storyboard */; };
+		B04054801FE9F45500CED3B6 /* Project10_HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B040547F1FE9F45500CED3B6 /* Project10_HomePage.swift */; };
+		B04054831FE9F47900CED3B6 /* Project10.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B04054811FE9F47900CED3B6 /* Project10.storyboard */; };
+		B04054861FE9F64400CED3B6 /* Project10_CollectionViewcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04054851FE9F64400CED3B6 /* Project10_CollectionViewcontroller.swift */; };
+		B04054881FE9FBAA00CED3B6 /* Project10_CollectionViewcontroller_Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04054871FE9FBAA00CED3B6 /* Project10_CollectionViewcontroller_Cell.swift */; };
+		B040548A1FEA2D6700CED3B6 /* Project10_PersonClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04054891FEA2D6700CED3B6 /* Project10_PersonClass.swift */; };
 		B045C4711FDEB830002A59ED /* Project7_HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B045C4701FDEB830002A59ED /* Project7_HomePage.swift */; };
 		B045C4741FDEB8AE002A59ED /* Project7.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B045C4721FDEB8AE002A59ED /* Project7.storyboard */; };
 		B045C4761FDEBA46002A59ED /* Project7_TableviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B045C4751FDEBA46002A59ED /* Project7_TableviewController.swift */; };
@@ -125,6 +130,11 @@
 		B03174111FD5747A00B0F6DC /* Project6_HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project6_HomePage.swift; sourceTree = "<group>"; };
 		B03174151FD574C900B0F6DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Project_HackingWithSwift/HomePage/Base.lproj/Project5.storyboard; sourceTree = "<group>"; };
 		B03174191FD5751F00B0F6DC /* Project6.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Project6.storyboard; sourceTree = "<group>"; };
+		B040547F1FE9F45500CED3B6 /* Project10_HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project10_HomePage.swift; sourceTree = "<group>"; };
+		B04054821FE9F47900CED3B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Project_HackingWithSwift/HomePage/Base.lproj/Project10.storyboard; sourceTree = "<group>"; };
+		B04054851FE9F64400CED3B6 /* Project10_CollectionViewcontroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project10_CollectionViewcontroller.swift; sourceTree = "<group>"; };
+		B04054871FE9FBAA00CED3B6 /* Project10_CollectionViewcontroller_Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project10_CollectionViewcontroller_Cell.swift; sourceTree = "<group>"; };
+		B04054891FEA2D6700CED3B6 /* Project10_PersonClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project10_PersonClass.swift; sourceTree = "<group>"; };
 		B045C4701FDEB830002A59ED /* Project7_HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project7_HomePage.swift; sourceTree = "<group>"; };
 		B045C4731FDEB8AE002A59ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Project_HackingWithSwift/HomePage/Base.lproj/Project7.storyboard; sourceTree = "<group>"; };
 		B045C4751FDEBA46002A59ED /* Project7_TableviewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project7_TableviewController.swift; sourceTree = "<group>"; };
@@ -284,6 +294,18 @@
 			path = Project6;
 			sourceTree = "<group>";
 		};
+		B04054841FE9F48100CED3B6 /* Project10 */ = {
+			isa = PBXGroup;
+			children = (
+				B040547F1FE9F45500CED3B6 /* Project10_HomePage.swift */,
+				B04054851FE9F64400CED3B6 /* Project10_CollectionViewcontroller.swift */,
+				B04054871FE9FBAA00CED3B6 /* Project10_CollectionViewcontroller_Cell.swift */,
+				B04054891FEA2D6700CED3B6 /* Project10_PersonClass.swift */,
+				B04054811FE9F47900CED3B6 /* Project10.storyboard */,
+			);
+			path = Project10;
+			sourceTree = "<group>";
+		};
 		B045C46D1FDEB76E002A59ED /* Project7 */ = {
 			isa = PBXGroup;
 			children = (
@@ -322,6 +344,7 @@
 			isa = PBXGroup;
 			children = (
 				B08400521FC9A39D003C87E9 /* Info.plist */,
+				B04054841FE9F48100CED3B6 /* Project10 */,
 				B00FA9691FE204B000AD8A68 /* Project9 */,
 				B00FA9631FE2014000AD8A68 /* Project8 */,
 				B045C46D1FDEB76E002A59ED /* Project7 */,
@@ -490,6 +513,7 @@
 				B08400511FC9A39D003C87E9 /* LaunchScreen.storyboard in Resources */,
 				B00FA9621FE2013600AD8A68 /* Project8.storyboard in Resources */,
 				B001FB201FE74EE0004BA36C /* nssl0045.jpg in Resources */,
+				B04054831FE9F47900CED3B6 /* Project10.storyboard in Resources */,
 				B001FB1F1FE74EE0004BA36C /* nssl0091.jpg in Resources */,
 				B001FB221FE74EE0004BA36C /* nssl0041.jpg in Resources */,
 				B004645C1FDA16A200377B2C /* start.txt in Resources */,
@@ -543,6 +567,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B08400471FC9A39D003C87E9 /* AppDelegate.swift in Sources */,
+				B04054861FE9F64400CED3B6 /* Project10_CollectionViewcontroller.swift in Sources */,
 				B031740E1FD5745100B0F6DC /* Project4_HomePage.swift in Sources */,
 				B03174081FD573C900B0F6DC /* Project3_HomePage.swift in Sources */,
 				B001FB281FE74F0E004BA36C /* Project3_Detail.swift in Sources */,
@@ -554,6 +579,7 @@
 				B045C4711FDEB830002A59ED /* Project7_HomePage.swift in Sources */,
 				B045C4761FDEBA46002A59ED /* Project7_TableviewController.swift in Sources */,
 				B084007A1FC9A6C5003C87E9 /* HP_projectCell.swift in Sources */,
+				B04054801FE9F45500CED3B6 /* Project10_HomePage.swift in Sources */,
 				B00FA96B1FE2063300AD8A68 /* Project9_Tableview.swift in Sources */,
 				B08400771FC9A601003C87E9 /* HomePage.swift in Sources */,
 				B03173DC1FD519F700B0F6DC /* Project1_HomePage.swift in Sources */,
@@ -561,6 +587,8 @@
 				B0F46F471FD7C8D400189AEF /* Project1_Detail.swift in Sources */,
 				B00FA9651FE2047E00AD8A68 /* Project9_HomePage.swift in Sources */,
 				B03173E11FD51E8200B0F6DC /* Project2_HomePage.swift in Sources */,
+				B040548A1FEA2D6700CED3B6 /* Project10_PersonClass.swift in Sources */,
+				B04054881FE9FBAA00CED3B6 /* Project10_CollectionViewcontroller_Cell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -650,6 +678,14 @@
 				B03174151FD574C900B0F6DC /* Base */,
 			);
 			name = Project5.storyboard;
+			sourceTree = "<group>";
+		};
+		B04054811FE9F47900CED3B6 /* Project10.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B04054821FE9F47900CED3B6 /* Base */,
+			);
+			name = Project10.storyboard;
 			sourceTree = "<group>";
 		};
 		B045C4721FDEB8AE002A59ED /* Project7.storyboard */ = {

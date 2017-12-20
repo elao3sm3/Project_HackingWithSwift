@@ -31,7 +31,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" tag="1" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JrU-bI-wvh">
-                                                    <rect key="frame" x="25" y="11" width="285" height="21"/>
+                                                    <rect key="frame" x="25" y="11" width="235" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -39,7 +39,7 @@
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="JrU-bI-wvh" firstAttribute="top" secondItem="nFE-dz-lNe" secondAttribute="topMargin" id="hAt-K2-nTV"/>
-                                                <constraint firstAttribute="trailingMargin" secondItem="JrU-bI-wvh" secondAttribute="trailing" constant="50" id="lfS-GQ-wcQ"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="JrU-bI-wvh" secondAttribute="trailing" constant="100" id="lfS-GQ-wcQ"/>
                                                 <constraint firstItem="JrU-bI-wvh" firstAttribute="leading" secondItem="nFE-dz-lNe" secondAttribute="leadingMargin" constant="10" id="wut-er-Zc8"/>
                                                 <constraint firstAttribute="bottomMargin" secondItem="JrU-bI-wvh" secondAttribute="bottom" constant="1" id="x4N-3z-nmO"/>
                                             </constraints>
@@ -142,6 +142,21 @@
             </objects>
             <point key="canvasLocation" x="1058" y="162"/>
         </scene>
+        <!--Project10 Home Page-->
+        <scene sceneID="lmO-IK-039">
+            <objects>
+                <viewController storyboardIdentifier="view_Project10_HomePage" id="GIx-Hg-nMd" customClass="Project10_HomePage" customModule="Project_HackingWithSwift" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mcW-tW-HPR">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="x03-61-ZyJ"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="z4d-fd-FWR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1733" y="91"/>
+        </scene>
         <!--view_Project8_HomePage-->
         <scene sceneID="Eeb-4c-IIP">
             <objects>
@@ -157,14 +172,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="D30-5L-zPY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1054" y="288"/>
-        </scene>
-        <!--view_Project10_HomePage-->
-        <scene sceneID="AdE-wV-cfW">
-            <objects>
-                <viewControllerPlaceholder storyboardIdentifier="view_Project10_HomePage" storyboardName="Project10" referencedIdentifier="view_Project10_HomePage" id="bcT-Im-vgV" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="wJI-NK-97X" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1733" y="91"/>
         </scene>
     </scenes>
 </document>
