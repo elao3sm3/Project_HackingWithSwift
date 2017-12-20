@@ -1,5 +1,5 @@
 //
-//  Project10_CollectionViewcontroller.swift
+//  Project12_CollectionViewcontroller.swift
 //  Project_HackingWithSwift
 //
 //  Created by 魏品軒 on 2017/12/20.
@@ -10,31 +10,23 @@ import UIKit
 
 private let reuseIdentifier = "Cell"
 
-class Project10_CollectionViewcontroller: UICollectionViewController {
+class Project12_CollectionViewcontroller: UICollectionViewController {
     // MARK: - Properties
-    var people = [Project10_PersonClass]()
+    var people = [Project12_PersonClass]()
     
     // MARK: - IBOutlet
     
     // MARK: - LifeCycle
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        title = "NamesToFaces"
-        navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(addNewPerson))
+        // Register cell classes
+        self.collectionView!.register(UICollectionViewCell.self, forCellWithReuseIdentifier: reuseIdentifier)
         
-         self.collectionView!.register(UICollectionViewCell.self, forCellWithReuseIdentifier: reuseIdentifier)
     }
     // MARK: - IBAction
     
     // MARK: - Public
-    @objc func addNewPerson(){
-        let picker = UIImagePickerController()
-        picker.allowsEditing = true
-        picker.delegate = self
-        present(picker, animated: true)
-    }
     
     func getDocumentsDirectory() -> URL {
         let paths = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)
@@ -42,8 +34,7 @@ class Project10_CollectionViewcontroller: UICollectionViewController {
         return documentsDirectory
     }
     // MARK: - Private
-   
-
+    
     // MARK: UICollectionViewDataSource
 
     override func numberOfSections(in collectionView: UICollectionView) -> Int {
@@ -58,18 +49,18 @@ class Project10_CollectionViewcontroller: UICollectionViewController {
     }
 
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "Person", for: indexPath) as? Project10_CollectionViewcontroller_Cell
-    
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "Person", for: indexPath) as? Project12_CollectionViewcontroller_Cell
+        
         let person = people[indexPath.item]
         
-        cell!.Project10_CollectionViewCell_Label.text = person.name
+        cell!.Project12_CollectionViewCell_Label.text = person.name
         
         let path = getDocumentsDirectory().appendingPathComponent(person.image)
-        cell!.Project10_CollectionViewCell_ImageView.image = UIImage(contentsOfFile: path.path)
+        cell!.Project12_CollectionViewCell_ImageView.image = UIImage(contentsOfFile: path.path)
         
-        cell!.Project10_CollectionViewCell_ImageView.layer.borderColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.3).cgColor
-        cell!.Project10_CollectionViewCell_ImageView.layer.borderWidth = 2
-        cell!.Project10_CollectionViewCell_ImageView.layer.cornerRadius = 3
+        cell!.Project12_CollectionViewCell_ImageView.layer.borderColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.3).cgColor
+        cell!.Project12_CollectionViewCell_ImageView.layer.borderWidth = 2
+        cell!.Project12_CollectionViewCell_ImageView.layer.cornerRadius = 3
         cell!.layer.cornerRadius = 7
         
         return cell!
@@ -94,7 +85,6 @@ class Project10_CollectionViewcontroller: UICollectionViewController {
         
         present(ac, animated: true)
     }
-    
     /*
     // Uncomment this method to specify if the specified item should be highlighted during tracking
     override func collectionView(_ collectionView: UICollectionView, shouldHighlightItemAt indexPath: IndexPath) -> Bool {
@@ -125,7 +115,7 @@ class Project10_CollectionViewcontroller: UICollectionViewController {
     */
 
 }
-extension Project10_CollectionViewcontroller: UIImagePickerControllerDelegate{
+extension Project12_CollectionViewcontroller: UIImagePickerControllerDelegate{
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
         guard let image = info[UIImagePickerControllerEditedImage] as? UIImage else { return }
         
@@ -136,13 +126,15 @@ extension Project10_CollectionViewcontroller: UIImagePickerControllerDelegate{
             try? jpegData.write(to: imagePath)
         }
         
-        let person = Project10_PersonClass(name: "Unknown", image: imageName)
+        let person = Project12_PersonClass(name: "Unknown", image: imageName)
         people.append(person)
-        collectionView?.reloadData()
+        print("people:\(people)")
+        
+        collectionView!.reloadData()
         
         dismiss(animated: true)
     }
 }
-extension Project10_CollectionViewcontroller: UINavigationControllerDelegate{
+extension Project12_CollectionViewcontroller: UINavigationControllerDelegate{
     
 }

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="MarkerFeltThin.ttf">
+            <string>MarkerFelt-Thin</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Project12 Home Page-->
+        <scene sceneID="HLg-3f-gMZ">
+            <objects>
+                <viewController storyboardIdentifier="view_Project12_HomePage" id="mza-Pm-GsK" customClass="Project12_HomePage" customModule="Project_HackingWithSwift" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2wA-tV-tD1">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ush-JK-P4g">
+                                <rect key="frame" x="172" y="318.5" width="30" height="30"/>
+                                <state key="normal" title="GO"/>
+                                <connections>
+                                    <segue destination="1ew-4y-6dT" kind="show" id="EnI-mD-7iW"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ush-JK-P4g" firstAttribute="centerY" secondItem="2wA-tV-tD1" secondAttribute="centerY" id="KZe-MS-qYZ"/>
+                            <constraint firstItem="ush-JK-P4g" firstAttribute="centerX" secondItem="2wA-tV-tD1" secondAttribute="centerX" id="mgd-Pz-8f4"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="e0Y-BK-NJT"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="3dp-2B-6Hb"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JcM-jn-6Sq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2232.8000000000002" y="205.54722638680661"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="NEd-LM-zOd">
+            <objects>
+                <collectionViewController storyboardIdentifier="view_Project12_CollectionViewcontroller" id="TO3-OK-kfV" customClass="Project12_CollectionViewcontroller" customModule="Project_HackingWithSwift" customModuleProvider="target" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="2Mz-wh-VeC" customClass="pr">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="fag-Tl-EfY">
+                            <size key="itemSize" width="140" height="180"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="10" minY="10" maxX="10" maxY="10"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Person" id="w1o-Tv-151" customClass="Project12_CollectionViewcontroller_Cell" customModule="Project_HackingWithSwift" customModuleProvider="target">
+                                <rect key="frame" x="10" y="10" width="140" height="180"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                    <rect key="frame" x="0.0" y="0.0" width="140" height="180"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hRG-z6-WhW">
+                                            <rect key="frame" x="10" y="10" width="120" height="120"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LiY-zg-4RT">
+                                            <rect key="frame" x="10" y="134" width="120" height="40"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="16"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </view>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <outlet property="Project12_CollectionViewCell_ImageView" destination="hRG-z6-WhW" id="lrq-mM-lO7"/>
+                                    <outlet property="Project12_CollectionViewCell_Label" destination="LiY-zg-4RT" id="Zej-HE-4Pt"/>
+                                </connections>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="TO3-OK-kfV" id="Len-el-Oa9"/>
+                            <outlet property="delegate" destination="TO3-OK-kfV" id="2kU-09-oru"/>
+                        </connections>
+                    </collectionView>
+                    <tabBarItem key="tabBarItem" title="Item" id="jyZ-xa-0xc"/>
+                    <navigationItem key="navigationItem" id="HHI-Zo-AuH"/>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mbS-6f-9qh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3623" y="205"/>
+        </scene>
+        <!--Project12 Tabbar Controller-->
+        <scene sceneID="hn5-LL-C4Y">
+            <objects>
+                <tabBarController storyboardIdentifier="view_project12_TabbarController" automaticallyAdjustsScrollViewInsets="NO" id="1ew-4y-6dT" customClass="Project12_TabbarController" customModule="Project_HackingWithSwift" customModuleProvider="target" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Jo3-BF-1aT">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="TO3-OK-kfV" kind="relationship" relationship="viewControllers" id="GJg-k9-fGj"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dSa-RX-v4p" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2896" y="205.09745127436284"/>
+        </scene>
+    </scenes>
+</document>

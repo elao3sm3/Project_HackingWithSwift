@@ -23,13 +23,13 @@ class HomePage: UIViewController {
         
         navigationItem.title = "目錄"
         
-        projectArray = ["Project1_StomViewer","Project2_GuessTheFlag","Project3_SocialMedia","Project4_EasyBrowser","Project5_WordScramble","Project6_AutoLayout","Project7_WhitehousePetitions","Project8_7SwiftyWords","Project9_GCD","Project10_NamesToFaces"]
+        projectArray = ["Project1_StomViewer","Project2_GuessTheFlag","Project3_SocialMedia","Project4_EasyBrowser","Project5_WordScramble","Project6_AutoLayout","Project7_WhitehousePetitions","Project8_7SwiftyWords","Project9_GCD","Project10_NamesToFaces","Project11_Pachinko","Project12_UserDefaults"]
         
         HP_tableview.dataSource = self
         HP_tableview.delegate = self
 
     }
-
+    
    // MARK: - IBAction
     
    // MARK: - Public
@@ -95,6 +95,14 @@ extension HomePage: UITableViewDelegate{
         case 9:
             let push = storyboard?.instantiateViewController(withIdentifier: "view_Project10_HomePage") as? Project10_HomePage
             
+            self.navigationController?.pushViewController(push!, animated: true)
+        case 10:
+            let push = storyboard?.instantiateViewController(withIdentifier: "view_Project11_HomePage") as? Project11_HomePage
+            
+            self.navigationController?.pushViewController(push!, animated: true)
+        case 11:
+            let push = storyboard?.instantiateViewController(withIdentifier: "view_Project12_HomePage") as? Project12_HomePage
+            navigationController?.setToolbarHidden(true, animated: true)
             self.navigationController?.pushViewController(push!, animated: true)
         default:
             print("Over the range.")
