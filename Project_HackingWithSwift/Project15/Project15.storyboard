@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Project15 Home Page-->
+        <scene sceneID="ql0-AF-a8n">
+            <objects>
+                <viewController storyboardIdentifier="view_Project15_HomePage" id="Udo-Nn-qUw" customClass="Project15_HomePage" customModule="Project_HackingWithSwift" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kq2-u2-o03">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k8Y-Cs-bVe">
+                                <rect key="frame" x="164.5" y="420" width="46" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="36" id="AHt-h6-gsz"/>
+                                    <constraint firstAttribute="width" constant="46" id="yRh-bC-cXo"/>
+                                </constraints>
+                                <state key="normal" title="Tap"/>
+                                <connections>
+                                    <action selector="Tapped:" destination="Udo-Nn-qUw" eventType="touchUpInside" id="wZo-2y-c9r"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="k8Y-Cs-bVe" firstAttribute="top" secondItem="W2G-q7-0ez" secondAttribute="top" constant="400" id="8Zv-GT-fJ7"/>
+                            <constraint firstItem="k8Y-Cs-bVe" firstAttribute="centerX" secondItem="kq2-u2-o03" secondAttribute="centerX" id="xzA-ui-UDr"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="W2G-q7-0ez"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="jlC-4A-lpS"/>
+                    <connections>
+                        <outlet property="Project15_TapButton" destination="k8Y-Cs-bVe" id="OT4-2D-Jp0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2ZS-YO-oU8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2100" y="108.39580209895054"/>
+        </scene>
+    </scenes>
+</document>

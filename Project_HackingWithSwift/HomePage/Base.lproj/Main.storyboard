@@ -188,7 +188,15 @@
                 <viewControllerPlaceholder storyboardIdentifier="view_Project13_HomePage" storyboardName="Project13" referencedIdentifier="view_Project13_HomePage" id="kpc-W7-rAh" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rgw-2H-j74" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1663" y="175"/>
+            <point key="canvasLocation" x="1067" y="527"/>
+        </scene>
+        <!--view_Project15_HomePage-->
+        <scene sceneID="MgF-Jp-icy">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="view_Project15_HomePage" storyboardName="Project15" referencedIdentifier="view_Project15_HomePage" id="YP5-L7-rhQ" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4j1-z8-UDo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1761" y="109"/>
         </scene>
     </scenes>
 </document>
