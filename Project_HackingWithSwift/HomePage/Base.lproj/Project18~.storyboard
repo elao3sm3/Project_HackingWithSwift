@@ -206,11 +206,18 @@
             </objects>
             <point key="canvasLocation" x="1405" y="-105"/>
         </scene>
-        <!--view_Project18_HomePage-->
-        <scene sceneID="CmW-ic-E4J">
+        <!--Project18 Home Page-->
+        <scene sceneID="DQS-TU-Co0">
             <objects>
-                <viewControllerPlaceholder storyboardIdentifier="view_Project18_HomePage" storyboardName="Project18" referencedIdentifier="view_Project18_HomePage" id="B0C-Ok-otn" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="zxE-Qe-NzI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController storyboardIdentifier="view_Project18_HomePage" id="Kup-YB-JKS" customClass="Project18_HomePage" customModule="Project_HackingWithSwift" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="uNC-AY-s78">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="pBy-BP-udl"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hjV-u5-Oiv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1716" y="288"/>
         </scene>
