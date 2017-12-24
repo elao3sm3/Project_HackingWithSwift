@@ -236,7 +236,15 @@
                 <viewControllerPlaceholder storyboardIdentifier="view_Project21_HomePage" storyboardName="Project21" referencedIdentifier="view_Project21_HomePage" id="fiI-HH-Uam" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZnM-GB-zml" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2003" y="271"/>
+            <point key="canvasLocation" x="1406" y="229"/>
+        </scene>
+        <!--view_Project22_HomePage-->
+        <scene sceneID="N1Y-t7-xu7">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="view_Project22_HomePage" storyboardName="Project22" referencedIdentifier="view_Project22_HomePage" id="n7A-e1-H8d" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eoh-XU-mMA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2175" y="303"/>
         </scene>
     </scenes>
 </document>
