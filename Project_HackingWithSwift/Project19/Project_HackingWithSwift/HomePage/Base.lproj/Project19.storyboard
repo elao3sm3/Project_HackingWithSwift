@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Project19 Home Page-->
+        <scene sceneID="PpZ-DC-MVa">
+            <objects>
+                <viewController storyboardIdentifier="view_Project19_HomePage" id="HJy-80-M8V" customClass="Project19_HomePage" customModule="Project_HackingWithSwift" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kvt-qh-j55">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="4bq-W5-Vs1">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <connections>
+                                    <outlet property="delegate" destination="HJy-80-M8V" id="53g-Pd-NFG"/>
+                                </connections>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="4bq-W5-Vs1" firstAttribute="leading" secondItem="rky-mH-g99" secondAttribute="leading" id="BsW-FB-jC8"/>
+                            <constraint firstAttribute="trailing" secondItem="4bq-W5-Vs1" secondAttribute="trailing" id="XYo-ZK-wPM"/>
+                            <constraint firstItem="4bq-W5-Vs1" firstAttribute="top" secondItem="rky-mH-g99" secondAttribute="top" id="v9K-vg-2mJ"/>
+                            <constraint firstItem="rky-mH-g99" firstAttribute="bottom" secondItem="4bq-W5-Vs1" secondAttribute="bottom" id="zc7-Zx-L5L"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="rky-mH-g99"/>
+                    </view>
+                    <connections>
+                        <outlet property="Project19_MapView" destination="4bq-W5-Vs1" id="6Ia-dO-lZr"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7lH-z3-wgR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1980" y="341"/>
+        </scene>
+    </scenes>
+</document>

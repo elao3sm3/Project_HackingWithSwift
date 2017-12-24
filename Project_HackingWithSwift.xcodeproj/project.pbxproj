@@ -40,6 +40,10 @@
 		B007E6681FEF34E400EB9AD9 /* Project18_HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B007E6671FEF34E400EB9AD9 /* Project18_HomePage.swift */; };
 		B007E66B1FEF350700EB9AD9 /* Project18.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B007E6691FEF350700EB9AD9 /* Project18.storyboard */; };
 		B007E66E1FEF356800EB9AD9 /* Project17_HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B007E66D1FEF356800EB9AD9 /* Project17_HomePage.swift */; };
+		B007E6721FEF821700EB9AD9 /* Project19.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B007E6701FEF821700EB9AD9 /* Project19.storyboard */; };
+		B007E6741FEF822A00EB9AD9 /* Project19_HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B007E6731FEF822A00EB9AD9 /* Project19_HomePage.swift */; };
+		B007E6781FEF82C200EB9AD9 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B007E6771FEF82C200EB9AD9 /* MapKit.framework */; };
+		B007E67A1FEF846800EB9AD9 /* Project19_Capitals.swift in Sources */ = {isa = PBXBuildFile; fileRef = B007E6791FEF846800EB9AD9 /* Project19_Capitals.swift */; };
 		B009A0D21FEBDBC300FF8DC4 /* Project15.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B009A0D11FEBDBC300FF8DC4 /* Project15.storyboard */; };
 		B009A0D41FEBDC0500FF8DC4 /* Project15_HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B009A0D31FEBDC0500FF8DC4 /* Project15_HomePage.swift */; };
 		B009A0D81FEBDCC900FF8DC4 /* Project14_HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B009A0D71FEBDCC900FF8DC4 /* Project14_HomePage.swift */; };
@@ -167,6 +171,10 @@
 		B007E6671FEF34E400EB9AD9 /* Project18_HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project18_HomePage.swift; sourceTree = "<group>"; };
 		B007E66A1FEF350700EB9AD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Project_HackingWithSwift/HomePage/Base.lproj/Project18.storyboard; sourceTree = "<group>"; };
 		B007E66D1FEF356800EB9AD9 /* Project17_HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project17_HomePage.swift; sourceTree = "<group>"; };
+		B007E6711FEF821700EB9AD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Project_HackingWithSwift/HomePage/Base.lproj/Project19.storyboard; sourceTree = "<group>"; };
+		B007E6731FEF822A00EB9AD9 /* Project19_HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project19_HomePage.swift; sourceTree = "<group>"; };
+		B007E6771FEF82C200EB9AD9 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		B007E6791FEF846800EB9AD9 /* Project19_Capitals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project19_Capitals.swift; sourceTree = "<group>"; };
 		B009A0D11FEBDBC300FF8DC4 /* Project15.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Project15.storyboard; sourceTree = "<group>"; };
 		B009A0D31FEBDC0500FF8DC4 /* Project15_HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project15_HomePage.swift; sourceTree = "<group>"; };
 		B009A0D71FEBDCC900FF8DC4 /* Project14_HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project14_HomePage.swift; sourceTree = "<group>"; };
@@ -239,6 +247,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B007E6781FEF82C200EB9AD9 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,6 +346,24 @@
 				B007E66D1FEF356800EB9AD9 /* Project17_HomePage.swift */,
 			);
 			path = Project17;
+			sourceTree = "<group>";
+		};
+		B007E6751FEF822F00EB9AD9 /* Project19 */ = {
+			isa = PBXGroup;
+			children = (
+				B007E6701FEF821700EB9AD9 /* Project19.storyboard */,
+				B007E6791FEF846800EB9AD9 /* Project19_Capitals.swift */,
+				B007E6731FEF822A00EB9AD9 /* Project19_HomePage.swift */,
+			);
+			path = Project19;
+			sourceTree = "<group>";
+		};
+		B007E6761FEF82C200EB9AD9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B007E6771FEF82C200EB9AD9 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		B009A0D51FEBDC0B00FF8DC4 /* Project15 */ = {
@@ -492,6 +519,7 @@
 				B08400651FC9A39D003C87E9 /* Project_HackingWithSwiftUITests */,
 				B007E6551FEDEC1300EB9AD9 /* Project16_Extension */,
 				B08400441FC9A39D003C87E9 /* Products */,
+				B007E6761FEF82C200EB9AD9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -510,6 +538,7 @@
 			isa = PBXGroup;
 			children = (
 				B08400521FC9A39D003C87E9 /* Info.plist */,
+				B007E6751FEF822F00EB9AD9 /* Project19 */,
 				B007E66C1FEF351B00EB9AD9 /* Project18 */,
 				B007E66F1FEF356D00EB9AD9 /* Project17 */,
 				B007E64F1FEDE91800EB9AD9 /* Project16 */,
@@ -665,6 +694,11 @@
 					B08400421FC9A39D003C87E9 = {
 						CreatedOnToolsVersion = 9.1;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					B08400561FC9A39D003C87E9 = {
 						CreatedOnToolsVersion = 9.1;
@@ -713,6 +747,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B007E6721FEF821700EB9AD9 /* Project19.storyboard in Resources */,
 				B009A0F91FEBE31900FF8DC4 /* penguin.png in Resources */,
 				B001FB111FE36F67004BA36C /* nssl0034.jpg in Resources */,
 				B001FB231FE74EE0004BA36C /* nssl0042.jpg in Resources */,
@@ -806,6 +841,7 @@
 				B00FA95F1FE2011B00AD8A68 /* Project8_HomePage.swift in Sources */,
 				B00FA95B1FE1540D00AD8A68 /* SwiftyJSON.swift in Sources */,
 				B045C4711FDEB830002A59ED /* Project7_HomePage.swift in Sources */,
+				B007E6741FEF822A00EB9AD9 /* Project19_HomePage.swift in Sources */,
 				B045C4761FDEBA46002A59ED /* Project7_TableviewController.swift in Sources */,
 				B007E6681FEF34E400EB9AD9 /* Project18_HomePage.swift in Sources */,
 				B084007A1FC9A6C5003C87E9 /* HP_projectCell.swift in Sources */,
@@ -823,6 +859,7 @@
 				B04054A01FEA557E00CED3B6 /* Project12_TabbarController.swift in Sources */,
 				B040548A1FEA2D6700CED3B6 /* Project10_PersonClass.swift in Sources */,
 				B04054881FE9FBAA00CED3B6 /* Project10_CollectionViewcontroller_Cell.swift in Sources */,
+				B007E67A1FEF846800EB9AD9 /* Project19_Capitals.swift in Sources */,
 				B00724F31FEAA6A900F8F76A /* Project13_HomePage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -886,6 +923,14 @@
 				B007E66A1FEF350700EB9AD9 /* Base */,
 			);
 			name = Project18.storyboard;
+			sourceTree = "<group>";
+		};
+		B007E6701FEF821700EB9AD9 /* Project19.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B007E6711FEF821700EB9AD9 /* Base */,
+			);
+			name = Project19.storyboard;
 			sourceTree = "<group>";
 		};
 		B00FA9601FE2013600AD8A68 /* Project8.storyboard */ = {
