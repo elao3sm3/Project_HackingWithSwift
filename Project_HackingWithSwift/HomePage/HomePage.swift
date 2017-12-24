@@ -23,7 +23,7 @@ class HomePage: UIViewController {
         
         navigationItem.title = "目錄"
         
-        projectArray = ["Project1_StomViewer","Project2_GuessTheFlag","Project3_SocialMedia","Project4_EasyBrowser","Project5_WordScramble","Project6_AutoLayout","Project7_WhitehousePetitions","Project8_7SwiftyWords","Project9_GCD","Project10_NamesToFaces","Project11_Pachinko","Project12_UserDefaults","Project13_Instafilter","Project14_","Project15_Animation","Project16_JavaScriptInjection","Project17_Swifty","Project18_Debugging","Project19_CapitalCities"]
+        projectArray = ["Project1_StomViewer","Project2_GuessTheFlag","Project3_SocialMedia","Project4_EasyBrowser","Project5_WordScramble","Project6_AutoLayout","Project7_WhitehousePetitions","Project8_7SwiftyWords","Project9_GCD","Project10_NamesToFaces","Project11_Pachinko","Project12_UserDefaults","Project13_Instafilter","Project14_","Project15_Animation","Project16_JavaScriptInjection","Project17_Swifty","Project18_Debugging","Project19_CapitalCities","Project20_Fireworks Night"]
         
         HP_tableview.dataSource = self
         HP_tableview.delegate = self
@@ -130,6 +130,10 @@ extension HomePage: UITableViewDelegate{
             self.navigationController?.pushViewController(push!, animated: true)
         case 18:
             let push = storyboard?.instantiateViewController(withIdentifier: "view_Project19_HomePage") as? Project19_HomePage
+            
+            self.navigationController?.pushViewController(push!, animated: true)
+        case 19:
+            let push = storyboard?.instantiateViewController(withIdentifier: "view_Project20_HomePage") as? Project20_HomePage
             
             self.navigationController?.pushViewController(push!, animated: true)
         default:

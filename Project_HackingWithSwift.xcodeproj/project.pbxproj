@@ -44,6 +44,12 @@
 		B007E6741FEF822A00EB9AD9 /* Project19_HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B007E6731FEF822A00EB9AD9 /* Project19_HomePage.swift */; };
 		B007E6781FEF82C200EB9AD9 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B007E6771FEF82C200EB9AD9 /* MapKit.framework */; };
 		B007E67A1FEF846800EB9AD9 /* Project19_Capitals.swift in Sources */ = {isa = PBXBuildFile; fileRef = B007E6791FEF846800EB9AD9 /* Project19_Capitals.swift */; };
+		B007E67C1FEF87E100EB9AD9 /* Project20_HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B007E67B1FEF87E100EB9AD9 /* Project20_HomePage.swift */; };
+		B007E67E1FEF884600EB9AD9 /* Project21_HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B007E67D1FEF884600EB9AD9 /* Project21_HomePage.swift */; };
+		B007E6801FEF885B00EB9AD9 /* Project22_HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B007E67F1FEF885B00EB9AD9 /* Project22_HomePage.swift */; };
+		B007E6821FEF886E00EB9AD9 /* Project23_HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B007E6811FEF886E00EB9AD9 /* Project23_HomePage.swift */; };
+		B007E6841FEF887F00EB9AD9 /* Project24_HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B007E6831FEF887F00EB9AD9 /* Project24_HomePage.swift */; };
+		B007E68C1FEF893700EB9AD9 /* Project20.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B007E68A1FEF893700EB9AD9 /* Project20.storyboard */; };
 		B009A0D21FEBDBC300FF8DC4 /* Project15.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B009A0D11FEBDBC300FF8DC4 /* Project15.storyboard */; };
 		B009A0D41FEBDC0500FF8DC4 /* Project15_HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B009A0D31FEBDC0500FF8DC4 /* Project15_HomePage.swift */; };
 		B009A0D81FEBDCC900FF8DC4 /* Project14_HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B009A0D71FEBDCC900FF8DC4 /* Project14_HomePage.swift */; };
@@ -175,6 +181,12 @@
 		B007E6731FEF822A00EB9AD9 /* Project19_HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project19_HomePage.swift; sourceTree = "<group>"; };
 		B007E6771FEF82C200EB9AD9 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		B007E6791FEF846800EB9AD9 /* Project19_Capitals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project19_Capitals.swift; sourceTree = "<group>"; };
+		B007E67B1FEF87E100EB9AD9 /* Project20_HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project20_HomePage.swift; sourceTree = "<group>"; };
+		B007E67D1FEF884600EB9AD9 /* Project21_HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project21_HomePage.swift; sourceTree = "<group>"; };
+		B007E67F1FEF885B00EB9AD9 /* Project22_HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project22_HomePage.swift; sourceTree = "<group>"; };
+		B007E6811FEF886E00EB9AD9 /* Project23_HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project23_HomePage.swift; sourceTree = "<group>"; };
+		B007E6831FEF887F00EB9AD9 /* Project24_HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project24_HomePage.swift; sourceTree = "<group>"; };
+		B007E68B1FEF893700EB9AD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Project_HackingWithSwift/HomePage/Base.lproj/Project20.storyboard; sourceTree = "<group>"; };
 		B009A0D11FEBDBC300FF8DC4 /* Project15.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Project15.storyboard; sourceTree = "<group>"; };
 		B009A0D31FEBDC0500FF8DC4 /* Project15_HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project15_HomePage.swift; sourceTree = "<group>"; };
 		B009A0D71FEBDCC900FF8DC4 /* Project14_HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project14_HomePage.swift; sourceTree = "<group>"; };
@@ -366,6 +378,47 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		B007E6851FEF888300EB9AD9 /* Project20 */ = {
+			isa = PBXGroup;
+			children = (
+				B007E67B1FEF87E100EB9AD9 /* Project20_HomePage.swift */,
+				B007E68A1FEF893700EB9AD9 /* Project20.storyboard */,
+			);
+			path = Project20;
+			sourceTree = "<group>";
+		};
+		B007E6861FEF889500EB9AD9 /* Project21 */ = {
+			isa = PBXGroup;
+			children = (
+				B007E67D1FEF884600EB9AD9 /* Project21_HomePage.swift */,
+			);
+			path = Project21;
+			sourceTree = "<group>";
+		};
+		B007E6871FEF88A300EB9AD9 /* Project22 */ = {
+			isa = PBXGroup;
+			children = (
+				B007E67F1FEF885B00EB9AD9 /* Project22_HomePage.swift */,
+			);
+			path = Project22;
+			sourceTree = "<group>";
+		};
+		B007E6881FEF88B200EB9AD9 /* Project23 */ = {
+			isa = PBXGroup;
+			children = (
+				B007E6811FEF886E00EB9AD9 /* Project23_HomePage.swift */,
+			);
+			path = Project23;
+			sourceTree = "<group>";
+		};
+		B007E6891FEF88BE00EB9AD9 /* Project24 */ = {
+			isa = PBXGroup;
+			children = (
+				B007E6831FEF887F00EB9AD9 /* Project24_HomePage.swift */,
+			);
+			path = Project24;
+			sourceTree = "<group>";
+		};
 		B009A0D51FEBDC0B00FF8DC4 /* Project15 */ = {
 			isa = PBXGroup;
 			children = (
@@ -538,6 +591,11 @@
 			isa = PBXGroup;
 			children = (
 				B08400521FC9A39D003C87E9 /* Info.plist */,
+				B007E6891FEF88BE00EB9AD9 /* Project24 */,
+				B007E6881FEF88B200EB9AD9 /* Project23 */,
+				B007E6871FEF88A300EB9AD9 /* Project22 */,
+				B007E6861FEF889500EB9AD9 /* Project21 */,
+				B007E6851FEF888300EB9AD9 /* Project20 */,
 				B007E6751FEF822F00EB9AD9 /* Project19 */,
 				B007E66C1FEF351B00EB9AD9 /* Project18 */,
 				B007E66F1FEF356D00EB9AD9 /* Project17 */,
@@ -779,6 +837,7 @@
 				B001FB0A1FE36F67004BA36C /* nssl0091.jpg in Resources */,
 				B040548F1FEA4E0C00CED3B6 /* Project11.storyboard in Resources */,
 				B009A0F81FEBE31900FF8DC4 /* penguin@2x.png in Resources */,
+				B007E68C1FEF893700EB9AD9 /* Project20.storyboard in Resources */,
 				B045C4741FDEB8AE002A59ED /* Project7.storyboard in Resources */,
 				B001FB1D1FE74EE0004BA36C /* nssl0049.jpg in Resources */,
 				B001FB241FE74EE0004BA36C /* nssl0043.jpg in Resources */,
@@ -826,22 +885,27 @@
 			files = (
 				B08400471FC9A39D003C87E9 /* AppDelegate.swift in Sources */,
 				B04054911FEA4E3800CED3B6 /* Project11_HomePage.swift in Sources */,
+				B007E67E1FEF884600EB9AD9 /* Project21_HomePage.swift in Sources */,
+				B007E6801FEF885B00EB9AD9 /* Project22_HomePage.swift in Sources */,
 				B040549C1FEA53BE00CED3B6 /* Project12_CollectionViewcontroller_Cell.swift in Sources */,
 				B04054861FE9F64400CED3B6 /* Project10_CollectionViewcontroller.swift in Sources */,
 				B007E64B1FEDE8D900EB9AD9 /* Project16_HomePage.swift in Sources */,
 				B009A0D41FEBDC0500FF8DC4 /* Project15_HomePage.swift in Sources */,
 				B031740E1FD5745100B0F6DC /* Project4_HomePage.swift in Sources */,
+				B007E6841FEF887F00EB9AD9 /* Project24_HomePage.swift in Sources */,
 				B03174081FD573C900B0F6DC /* Project3_HomePage.swift in Sources */,
 				B001FB281FE74F0E004BA36C /* Project3_Detail.swift in Sources */,
 				B00FA9571FE0F53A00AD8A68 /* Project7_TabbarController.swift in Sources */,
 				B04054941FEA515800CED3B6 /* Project12_HomePage.swift in Sources */,
 				B00FA95D1FE159B700AD8A68 /* Project7_Detail.swift in Sources */,
 				B03174101FD5746600B0F6DC /* Project5_HomePage.swift in Sources */,
+				B007E67C1FEF87E100EB9AD9 /* Project20_HomePage.swift in Sources */,
 				B040549E1FEA53DB00CED3B6 /* Project12_CollectionViewcontroller.swift in Sources */,
 				B00FA95F1FE2011B00AD8A68 /* Project8_HomePage.swift in Sources */,
 				B00FA95B1FE1540D00AD8A68 /* SwiftyJSON.swift in Sources */,
 				B045C4711FDEB830002A59ED /* Project7_HomePage.swift in Sources */,
 				B007E6741FEF822A00EB9AD9 /* Project19_HomePage.swift in Sources */,
+				B007E6821FEF886E00EB9AD9 /* Project23_HomePage.swift in Sources */,
 				B045C4761FDEBA46002A59ED /* Project7_TableviewController.swift in Sources */,
 				B007E6681FEF34E400EB9AD9 /* Project18_HomePage.swift in Sources */,
 				B084007A1FC9A6C5003C87E9 /* HP_projectCell.swift in Sources */,
@@ -931,6 +995,14 @@
 				B007E6711FEF821700EB9AD9 /* Base */,
 			);
 			name = Project19.storyboard;
+			sourceTree = "<group>";
+		};
+		B007E68A1FEF893700EB9AD9 /* Project20.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B007E68B1FEF893700EB9AD9 /* Base */,
+			);
+			name = Project20.storyboard;
 			sourceTree = "<group>";
 		};
 		B00FA9601FE2013600AD8A68 /* Project8.storyboard */ = {
