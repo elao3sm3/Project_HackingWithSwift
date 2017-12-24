@@ -50,6 +50,7 @@
 		B007E6821FEF886E00EB9AD9 /* Project23_HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B007E6811FEF886E00EB9AD9 /* Project23_HomePage.swift */; };
 		B007E6841FEF887F00EB9AD9 /* Project24_HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B007E6831FEF887F00EB9AD9 /* Project24_HomePage.swift */; };
 		B007E68C1FEF893700EB9AD9 /* Project20.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B007E68A1FEF893700EB9AD9 /* Project20.storyboard */; };
+		B007E68E1FEF8BFD00EB9AD9 /* Project21.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B007E68D1FEF8BFD00EB9AD9 /* Project21.storyboard */; };
 		B009A0D21FEBDBC300FF8DC4 /* Project15.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B009A0D11FEBDBC300FF8DC4 /* Project15.storyboard */; };
 		B009A0D41FEBDC0500FF8DC4 /* Project15_HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B009A0D31FEBDC0500FF8DC4 /* Project15_HomePage.swift */; };
 		B009A0D81FEBDCC900FF8DC4 /* Project14_HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B009A0D71FEBDCC900FF8DC4 /* Project14_HomePage.swift */; };
@@ -187,6 +188,7 @@
 		B007E6811FEF886E00EB9AD9 /* Project23_HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project23_HomePage.swift; sourceTree = "<group>"; };
 		B007E6831FEF887F00EB9AD9 /* Project24_HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project24_HomePage.swift; sourceTree = "<group>"; };
 		B007E68B1FEF893700EB9AD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Project_HackingWithSwift/HomePage/Base.lproj/Project20.storyboard; sourceTree = "<group>"; };
+		B007E68D1FEF8BFD00EB9AD9 /* Project21.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Project21.storyboard; sourceTree = "<group>"; };
 		B009A0D11FEBDBC300FF8DC4 /* Project15.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Project15.storyboard; sourceTree = "<group>"; };
 		B009A0D31FEBDC0500FF8DC4 /* Project15_HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project15_HomePage.swift; sourceTree = "<group>"; };
 		B009A0D71FEBDCC900FF8DC4 /* Project14_HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project14_HomePage.swift; sourceTree = "<group>"; };
@@ -391,6 +393,7 @@
 			isa = PBXGroup;
 			children = (
 				B007E67D1FEF884600EB9AD9 /* Project21_HomePage.swift */,
+				B007E68D1FEF8BFD00EB9AD9 /* Project21.storyboard */,
 			);
 			path = Project21;
 			sourceTree = "<group>";
@@ -848,6 +851,7 @@
 				B001FB251FE74EE0004BA36C /* nssl0033.jpg in Resources */,
 				B031741A1FD5751F00B0F6DC /* Project6.storyboard in Resources */,
 				B001FB0E1FE36F67004BA36C /* nssl0042.jpg in Resources */,
+				B007E68E1FEF8BFD00EB9AD9 /* Project21.storyboard in Resources */,
 				B031740C1FD5743A00B0F6DC /* Project4.storyboard in Resources */,
 				B00724F61FEAA6D700F8F76A /* Project13.storyboard in Resources */,
 				B001FB0B1FE36F67004BA36C /* nssl0045.jpg in Resources */,
