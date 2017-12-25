@@ -18,7 +18,7 @@ class Project26_HomePage: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // Do any additional setup after loading the view.
+        title = "Project26_MarbleMaze"
     }
     
     // MARK: - IBAction

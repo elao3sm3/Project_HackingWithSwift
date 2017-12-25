@@ -112,6 +112,8 @@
 		B0A6C1A51FF07D7800657B99 /* Project26.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0A6C1A31FF07D7800657B99 /* Project26.storyboard */; };
 		B0A6C1A71FF07DA900657B99 /* Project27.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0A6C1A61FF07DA900657B99 /* Project27.storyboard */; };
 		B0A6C1A91FF080D600657B99 /* Project25_collectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A6C1A81FF080D600657B99 /* Project25_collectionView.swift */; };
+		B0A6C1AC1FF08D2700657B99 /* mouse@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B0A6C1AA1FF08D2700657B99 /* mouse@2x.png */; };
+		B0A6C1AD1FF08D2700657B99 /* mouse.png in Resources */ = {isa = PBXBuildFile; fileRef = B0A6C1AB1FF08D2700657B99 /* mouse.png */; };
 		B0F46F471FD7C8D400189AEF /* Project1_Detail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F46F461FD7C8D400189AEF /* Project1_Detail.swift */; };
 /* End PBXBuildFile section */
 
@@ -266,6 +268,8 @@
 		B0A6C1A41FF07D7800657B99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Project_HackingWithSwift/HomePage/Base.lproj/Project26.storyboard; sourceTree = "<group>"; };
 		B0A6C1A61FF07DA900657B99 /* Project27.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Project27.storyboard; sourceTree = "<group>"; };
 		B0A6C1A81FF080D600657B99 /* Project25_collectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project25_collectionView.swift; sourceTree = "<group>"; };
+		B0A6C1AA1FF08D2700657B99 /* mouse@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mouse@2x.png"; sourceTree = "<group>"; };
+		B0A6C1AB1FF08D2700657B99 /* mouse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mouse.png; sourceTree = "<group>"; };
 		B0F46F461FD7C8D400189AEF /* Project1_Detail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project1_Detail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -713,6 +717,8 @@
 			children = (
 				B0A6C1A61FF07DA900657B99 /* Project27.storyboard */,
 				B0A6C19B1FF07CDF00657B99 /* Project27_HomePage.swift */,
+				B0A6C1AB1FF08D2700657B99 /* mouse.png */,
+				B0A6C1AA1FF08D2700657B99 /* mouse@2x.png */,
 			);
 			path = Project27;
 			sourceTree = "<group>";
@@ -893,7 +899,9 @@
 				B04054971FEA517F00CED3B6 /* Project12.storyboard in Resources */,
 				B08400821FC9B11C003C87E9 /* Default-568h@2x.png in Resources */,
 				B084004C1FC9A39D003C87E9 /* Main.storyboard in Resources */,
+				B0A6C1AD1FF08D2700657B99 /* mouse.png in Resources */,
 				B001FB091FE36F67004BA36C /* nssl0046.jpg in Resources */,
+				B0A6C1AC1FF08D2700657B99 /* mouse@2x.png in Resources */,
 				B001FB0A1FE36F67004BA36C /* nssl0091.jpg in Resources */,
 				B0A6C1A21FF07D4B00657B99 /* Project25.storyboard in Resources */,
 				B040548F1FEA4E0C00CED3B6 /* Project11.storyboard in Resources */,
