@@ -246,45 +246,20 @@
             </objects>
             <point key="canvasLocation" x="1406" y="288"/>
         </scene>
-        <!--view_Project23_HomePage-->
-        <scene sceneID="5dT-vA-Qok">
+        <!--Project23 Home Page-->
+        <scene sceneID="lhP-cB-Co0">
             <objects>
-                <viewControllerPlaceholder storyboardIdentifier="view_Project23_HomePage" storyboardName="Project23" referencedIdentifier="view_Project23_HomePage" id="QKv-Di-Heu" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="KdY-GH-q42" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController storyboardIdentifier="view_Project23_HomePage" id="VbQ-9o-W1b" customClass="Project23_HomePage" customModule="Project_HackingWithSwift" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kwX-84-kJf">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="41M-rs-JGj"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fBK-TJ-2rA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1405" y="345"/>
-        </scene>
-        <!--view_Project24_HomePage-->
-        <scene sceneID="UoA-NJ-I1p">
-            <objects>
-                <viewControllerPlaceholder storyboardIdentifier="view_Project24_HomePage" storyboardName="Project24" referencedIdentifier="view_Project24_HomePage" id="f6k-Co-Bhq" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="1xC-HV-md6" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1406" y="404"/>
-        </scene>
-        <!--view_Project25_HomePage-->
-        <scene sceneID="ym4-gF-i05">
-            <objects>
-                <viewControllerPlaceholder storyboardIdentifier="view_Project25_HomePage" storyboardName="Project25" referencedIdentifier="view_Project25_HomePage" id="sWf-Da-CUW" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="fyY-FE-KZx" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1406" y="460"/>
-        </scene>
-        <!--view_Project26_HomePage-->
-        <scene sceneID="kax-Sp-TLj">
-            <objects>
-                <viewControllerPlaceholder storyboardIdentifier="view_Project26_HomePage" storyboardName="Project26" referencedIdentifier="view_Project26_HomePage" id="WTN-e3-Rsv" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ZbJ-iq-xHv" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1406" y="526"/>
-        </scene>
-        <!--view_Project27_HomePage-->
-        <scene sceneID="fHc-1K-Wiq">
-            <objects>
-                <viewControllerPlaceholder storyboardIdentifier="view_Project27_HomePage" storyboardName="Project27" referencedIdentifier="view_Project27_HomePage" id="s4G-GE-Qfr" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="h7c-Ds-40T" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2240" y="-147"/>
+            <point key="canvasLocation" x="2241" y="408"/>
         </scene>
     </scenes>
 </document>

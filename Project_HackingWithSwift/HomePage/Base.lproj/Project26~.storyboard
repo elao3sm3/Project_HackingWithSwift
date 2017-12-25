@@ -270,21 +270,20 @@
             </objects>
             <point key="canvasLocation" x="1406" y="460"/>
         </scene>
-        <!--view_Project26_HomePage-->
-        <scene sceneID="kax-Sp-TLj">
+        <!--Project26 Home Page-->
+        <scene sceneID="IFr-Ww-0GE">
             <objects>
-                <viewControllerPlaceholder storyboardIdentifier="view_Project26_HomePage" storyboardName="Project26" referencedIdentifier="view_Project26_HomePage" id="WTN-e3-Rsv" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ZbJ-iq-xHv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController storyboardIdentifier="view_Project26_HomePage" id="ssC-8f-uZY" customClass="Project26_HomePage" customModule="Project_HackingWithSwift" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7hA-k5-EWN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="li7-Rz-TIc"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NCP-8H-mW3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1406" y="526"/>
-        </scene>
-        <!--view_Project27_HomePage-->
-        <scene sceneID="fHc-1K-Wiq">
-            <objects>
-                <viewControllerPlaceholder storyboardIdentifier="view_Project27_HomePage" storyboardName="Project27" referencedIdentifier="view_Project27_HomePage" id="s4G-GE-Qfr" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="h7c-Ds-40T" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2240" y="-147"/>
+            <point key="canvasLocation" x="2025" y="471"/>
         </scene>
     </scenes>
 </document>

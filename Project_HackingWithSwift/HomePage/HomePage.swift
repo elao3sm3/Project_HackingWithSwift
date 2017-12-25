@@ -23,7 +23,7 @@ class HomePage: UIViewController {
         
         navigationItem.title = "目錄"
         
-        projectArray = ["Project1_StomViewer","Project2_GuessTheFlag","Project3_SocialMedia","Project4_EasyBrowser","Project5_WordScramble","Project6_AutoLayout","Project7_WhitehousePetitions","Project8_7SwiftyWords","Project9_GCD","Project10_NamesToFaces","Project11_Pachinko","Project12_UserDefaults","Project13_Instafilter","Project14_","Project15_Animation","Project16_JavaScriptInjection","Project17_Swifty","Project18_Debugging","Project19_CapitalCities","Project20_Fireworks Night","Project21_LocalNotifications","Project22_DetectABeacon"]
+        projectArray = ["Project1_StomViewer","Project2_GuessTheFlag","Project3_SocialMedia","Project4_EasyBrowser","Project5_WordScramble","Project6_AutoLayout","Project7_WhitehousePetitions","Project8_7SwiftyWords","Project9_GCD","Project10_NamesToFaces","Project11_Pachinko","Project12_UserDefaults","Project13_Instafilter","Project14_","Project15_Animation","Project16_JavaScriptInjection","Project17_Swifty","Project18_Debugging","Project19_CapitalCities","Project20_Fireworks Night","Project21_LocalNotifications","Project22_DetectABeacon","Project23_SpaceRace","Project24_SwiftExtensions","Project25_SelfieShare"]
         
         HP_tableview.dataSource = self
         HP_tableview.delegate = self
@@ -142,6 +142,18 @@ extension HomePage: UITableViewDelegate{
             self.navigationController?.pushViewController(push!, animated: true)
         case 21:
             let push = storyboard?.instantiateViewController(withIdentifier: "view_Project22_HomePage") as? Project22_HomePage
+            
+            self.navigationController?.pushViewController(push!, animated: true)
+        case 22:
+            let push = storyboard?.instantiateViewController(withIdentifier: "view_Project23_HomePage") as? Project23_HomePage
+            
+            self.navigationController?.pushViewController(push!, animated: true)
+        case 23:
+            let push = storyboard?.instantiateViewController(withIdentifier: "view_Project24_HomePage") as? Project24_HomePage
+            
+            self.navigationController?.pushViewController(push!, animated: true)
+        case 24:
+            let push = storyboard?.instantiateViewController(withIdentifier: "view_Project25_HomePage") as? Project25_HomePage
             
             self.navigationController?.pushViewController(push!, animated: true)
         default:
